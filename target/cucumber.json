@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8340014135,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Testing team datas with API",
+        "description": "",
+        "id": "api-testingg;testing-team-datas-with-api;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 870794322,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2933852044,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I logged reservation api using \"jalabaster7f@drupal.org\" and \"terimapam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jalabaster7f@drupal.org\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"terimapam\"",
+                  "offset": 61
+                }
+              ],
+              "location": "Smoke_API_StepDefs.i_logged_reservation_api_using_and(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 421436401,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user should be able to verify status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 49
+                }
+              ],
+              "location": "Smoke_API_StepDefs.the_user_should_be_able_to_verify_status_code_is(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60599464,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user should be able to get response content type in JSON",
+            "match": {
+              "location": "Smoke_API_StepDefs.the_user_should_be_able_to_get_response_content_type_in_JSON()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1787625,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the following team datas should be returned:",
+            "match": {
+              "location": "Smoke_API_StepDefs.the_following_team_datas_should_be_returned()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Api testingg",
+    "description": "",
+    "id": "api-testingg",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/herokuapp/features/account/smoke.feature",
+    "tags": []
+  }
+]
